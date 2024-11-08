@@ -1,6 +1,6 @@
 def benchmark
   start_time = Time.now # Record the start time
-  yield # Execute the blovk of code passed to the method
+  yield # Execute the block of code passed to the method
   end_time = Time.now # Record the end time
   end_time - start_time # Return the time difference (duration) in seconds
 end
